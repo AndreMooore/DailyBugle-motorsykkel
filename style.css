@@ -35,8 +35,8 @@ main img {
 
 h1 {
 
-        color: #333;
-        font-size: 5rem;
+        color: black;
+        font-size: 4rem;
         margin-bottom: 20px;
         padding: 1rem;
         text-align: center; /* Add this line */
@@ -44,8 +44,8 @@ h1 {
 }
 
 p {
-    color: #666;
-    line-height: 2.5;
+    color: #393939;
+    line-height: 2;
     padding: 3rem;
     font-size: 1.5rem;  
     color: #333;
@@ -54,9 +54,9 @@ p {
 
 .bold {
     font-weight: bold;
-    line-height: 2.5;
+    line-height: 2;
     font-size: 2rem;  
-    color: #333;
+    color: black;
     text-align: center;
 }
 
@@ -73,4 +73,15 @@ p {
     height: auto;
     display: block;
     margin: 20px auto;
+}
+
+#stats {
+    display: block;
+    margin: 0 auto;
+    max-width: 70%;
+    color: #666;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-top: -2rem;
+    border-style: ridge;
 }
