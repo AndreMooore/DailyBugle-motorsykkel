@@ -10,8 +10,8 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
-    text-align: center;
+    padding: 1rem;
+    text-align: left;
 }
 
 header a {
@@ -21,9 +21,9 @@ header a {
 }
 
 main {
-    margin: 0 10rem;
+    margin: 0 auto;
+    max-width: 60%;
     background-color: #fff;
-   
 }
 
 main img {
@@ -38,18 +38,19 @@ h1 {
         color: black;
         font-size: 4rem;
         margin-bottom: 20px;
-        padding: 1rem;
+        padding: 2rem;
         text-align: center; /* Add this line */
     
 }
 
 p {
-    color: #393939;
+    
     line-height: 2;
-    padding: 3rem;
+    padding: 5rem;
     font-size: 1.5rem;  
-    color: #333;
+    color: #333333;
     padding-top: 0;
+    
 }
 
 .bold {
@@ -69,7 +70,7 @@ p {
 }
 
 #textimg {
-    width: 50%;
+    width: 100%;
     height: auto;
     display: block;
     margin: 20px auto;
@@ -84,4 +85,61 @@ p {
     padding: 1rem;
     margin-top: -2rem;
     border-style: ridge;
+}
+
+footer {
+   text-align: center;
+   padding: 1rem;
+}
+
+@media (max-width: 1200px) {
+    main {
+        margin: 0 5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        margin: 0 2rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    p {
+        padding: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .bold {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        margin: 0 1rem;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .bold {
+        font-size: 1.2rem;
+    }
 }
